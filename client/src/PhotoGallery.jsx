@@ -7,6 +7,7 @@ import PhotoCard from './PhotoCard';
 
  const photoGallery = props => {
      const photos = {props};
+
      return (
         <div>
             {photos.map(photo => <PhotoCard imageUrl={photo.url}/>)}
