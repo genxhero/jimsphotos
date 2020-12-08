@@ -6,6 +6,13 @@
 
  const PhotoCard = props => {
 
+    const imageUrl = props.imageUrl || "https://via.placeholder.com/150";
+
+        return (
+            <div>
+                <img src={imageUrl}/>
+            </div>
+        )
  }
 
 
